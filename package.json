@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bugs": {
-    "url": "https://github.com/cyyyu/dom-birds/issues",
+    "url": "https://github.com/cyyyu/dom-bird/issues",
     "email": "cyu9960@gmail.com"
   },
   "scripts": {
