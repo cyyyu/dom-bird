@@ -2,9 +2,14 @@
   "name": "dom-bird",
   "version": "1.0.0",
   "author": "Chuang Yu <cyu9960@gmail.com>",
-  "description": "dom-bird is a vanilla JavaScript lib which provides you the ability to highlight nodes in your web page.",
+  "repository": "github:cyyyu/dom-bird",
+  "description": "dom-bird is a vanilla JavaScript lib allows you to highlight things in your web page.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/cyyyu/dom-birds/issues",
+    "email": "cyu9960@gmail.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
