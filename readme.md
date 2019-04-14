@@ -4,7 +4,7 @@
 
 dom-bird is a vanilla JavaScript lib which allows you to highlight nodes in your web page.
 
-demos & usages: [here](https://cyyyu.github.io/projects/dom-bird/)
+demos & usages: [![Edit dom-bird example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6w6z442rpn?fontsize=14)
 
 ### install
 
