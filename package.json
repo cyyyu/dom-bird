@@ -1,6 +1,6 @@
 {
   "name": "dom-bird",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Chuang Yu <cyu9960@gmail.com>",
   "repository": "github:cyyyu/dom-bird",
   "description": "dom-bird is a vanilla JavaScript lib allows you to highlight things in your web page.",
