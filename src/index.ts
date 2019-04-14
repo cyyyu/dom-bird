@@ -1,4 +1,7 @@
 import Bird from "./Bird";
+import { DomBird } from "./types";
+
+export const Intent = DomBird.Intent;
 
 const store: {
   [name: string]: Bird;

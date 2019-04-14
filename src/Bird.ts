@@ -7,7 +7,7 @@ const ANIMATION_DURATION_CSS = ".2s";
 class Bird {
   name: string;
   node: HTMLElement;
-  targetNode?: HTMLElement;
+  targetNode?: Element;
   options: DomBird.Options = {};
 
   constructor(name: string) {
@@ -21,7 +21,9 @@ class Bird {
     return this;
   }
 
-  public flyTo(targetNode: HTMLElement, options: DomBird.Options = {}) {
+  public flyTo(targetNode?: Element, options: DomBird.Options = {}) {
+    if (!targetNode) throw new Error("No element specified.");
+
     this.targetNode = targetNode;
     this.options = options;
 
